@@ -1,0 +1,177 @@
+@media (min-width: 978px) {
+  .top {
+    background: #d9d9d9;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 40px;
+  }
+  .top > div {
+    font-size: 25px;
+    font-weight: normal;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .navlist {
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+  }
+  .nav {
+    float: left;
+  }
+  .nav > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+  }
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    grid-auto-rows: minmax(250px, 450px);
+  }
+  .aboutMe {
+    text-align: center;
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  #cyb {
+    height: 70%;
+    width: 100%;
+  }
+  .title {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  #cyb2 {
+    height: 70%;
+    width: 100%;
+  }
+  .se {
+    background: #032938;
+    padding: 5px;
+    margin: 2px;
+  }
+  .se > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .se > a:hover {
+    background: #2fb5eb;
+  }
+  section {
+    text-align: center;
+  }
+  .title2 {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 2;
+    grid-column: 2/4;
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+  #cyb3 {
+    height: 70%;
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+    background: #4d4d4d;
+    color: #e6e6e6;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 978px) {
+  .top {
+    background: #b3b3b3;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    padding: 50px;
+  }
+  .top > div {
+    font-size: 25px;
+    font-weight: normal;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .navlist {
+    overflow: hidden;
+    background-color: #333;
+    color: white;
+  }
+  .nav {
+    float: left;
+  }
+  .nav > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+  }
+  .aboutMe {
+    text-align: left;
+  }
+  #cyb {
+    height: 350px;
+    width: 100%;
+  }
+  #cyb2 {
+    height: 70%;
+    width: 100%;
+  }
+  .se {
+    background: #032938;
+    padding: 5px;
+    margin: 2px;
+  }
+  .se > a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .se > a:hover {
+    background: #2fb5eb;
+  }
+  section {
+    text-align: center;
+  }
+  #cyb3 {
+    height: 70%;
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+    background: #4d4d4d;
+    color: #e6e6e6;
+    padding: 20px;
+  }
+  .reverse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap-reverse;
+        flex-wrap: wrap-reverse;
+  }
+}
+/*# sourceMappingURL=index.css.map */

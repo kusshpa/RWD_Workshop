@@ -1,0 +1,186 @@
+$bg : grey;
+$pd : 40px;
+$border : 1px solid black;
+
+@media (min-width: 978px){
+    .top{
+        background: lighten($bg, 35%);
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: $pd;
+        padding: $pd;
+    }
+    
+    .top > div{
+        font-size: 25px;
+        font-weight: normal;
+    }
+
+    ul{
+        list-style-type: none;
+    }
+    .navlist{
+        overflow: hidden;
+        background-color: #333;
+        color: white;
+    }
+    
+    .nav{
+        float: left;
+    }
+
+    .nav > a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 15px 15px;
+        text-decoration: none;
+    }
+
+    .wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        grid-auto-rows: minmax(250px, 450px);
+    }
+    .aboutMe{
+        text-align: center;
+        grid-column: 1;
+        grid-row: 1;
+        // border: $border
+    }
+    #cyb{
+        height: 70%;
+        width: 100%;
+    }
+    .title{
+        grid-column: 2/4;
+        grid-row: 1;
+        // border: $border
+    }
+    #cyb2{
+        height: 70%;
+        width: 100%;
+    }
+    .se{
+        background: rgb(3, 41, 56);
+        padding: 5px;
+        margin: 2px;
+    }
+
+    .se > a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+
+        &:hover{
+            background: rgb(47, 181, 235);
+        }
+    }
+
+    section{
+        text-align: center;
+    }
+
+    .title2{
+        grid-column: 2/4;
+        grid-row: 2;
+        // border: $border
+    }
+    #cyb3{
+        height: 70%;
+        width: 100%;
+    }
+    footer{
+        text-align: center;
+        background: darken($bg, 20%);
+        color: lighten($bg, 40%);
+        padding: 20px;
+    }
+}
+
+@media (max-width: 978px){
+    .top{
+        background: lighten($bg, 20%);
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-size: $pd;
+        padding: 50px;
+    }
+    
+    .top > div{
+        font-size: 25px;
+        font-weight: normal;
+    }
+
+    ul{
+        list-style-type: none;
+    }
+    .navlist{
+        overflow: hidden;
+        background-color: #333;
+        color: white;
+    }
+    
+    .nav{
+        float: left;
+    }
+
+    .nav > a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 15px 15px;
+        text-decoration: none;
+    }
+    .aboutMe{
+        text-align: left;
+    }
+    #cyb{
+        height: 350px;
+        width: 100%; 
+    }
+    #cyb2{
+        height: 70%;
+        width: 100%;
+    }
+    .se{
+        background: rgb(3, 41, 56);
+        padding: 5px;
+        margin: 2px;
+    }
+
+    .se > a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+
+        &:hover{
+            background: rgb(47, 181, 235);
+        }
+    }
+
+    section{
+        text-align: center;
+    }
+    #cyb3{
+        height: 70%;
+        width: 100%;
+    }
+    footer{
+        text-align: center;
+        background: darken($bg, 20%);
+        color: lighten($bg, 40%);
+        padding: 20px;
+    }
+    .reverse{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+}
